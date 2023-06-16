@@ -20,7 +20,7 @@ This code is an example of using Optical Character Recognition (OCR) to extract 
 2. Open the script file and locate the following line:
 
 ```python
-file = "image 1 "+"("+str(x)+")"+'.jpg'
+image_file = f"image {x}.jpg"
 ```
 Modify "image 1 " to match the name of your image file. If your image file name follows a different pattern, make sure to adjust it accordingly.
 
